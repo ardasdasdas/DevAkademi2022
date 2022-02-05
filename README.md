@@ -111,9 +111,9 @@ Projenin şu anki haliyle CodeCoverage görseldeki gibidir:
 ```
 ### Delete
 ```
-    http://localhost:8080/v1/api/users/access-logs/1,2,6,9
-    http://localhost:8080/v1/api/users/classifieds/1,2,6,9
-    http://localhost:8080/v1/api/users/payment-details/1,2,6,9
+    http://localhost:8080/v1/api/access-logs/delete/1,2,6,9
+    http://localhost:8080/v1/api/classifieds/delete/1,2,6,9
+    http://localhost:8080/v1/api/payment-details/delete/1,2,6,9
     http://localhost:8080/v1/api/users/delete/1,2,6,9
 ```
 
